@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Avatar from "../components/Avatar";
+import { MicropphoneIcon, ViewGridIcon } from "@heroicons/react/solid";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           <p className="link">Images</p>
 
           {/* Icon */}
-
+          <ViewGridIcon />
           {/* Avatar */}
           <Avatar url="https://coaching.papareact.com/ai9" />
         </div>
