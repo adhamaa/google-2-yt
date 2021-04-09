@@ -36,9 +36,13 @@ export default function Home() {
           width={300}
           height={100}
         />
-        <div>
+        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
-          <input type="text" className="bg-red-500 focus:outline-none" />
+          <input
+            type="text"
+            className="flex-grow focus:outline-none rounded-full border border-gray-200"
+          />
+          <MicrophoneIcon className="h-5" />
         </div>
       </form>
       {/* footer */}
